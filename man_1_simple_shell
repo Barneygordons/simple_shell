@@ -1,0 +1,22 @@
+.TH hsh 1 "August 28 2019" "Holberton School" "0x15. C - Simple Shell"
+.SH NAME
+.B hsh\fR \- simple UNIX command interpreter
+.SH SYNOPSIS
+.B hsh\fR \ [\fIfilename\fR]
+.SH DESCRIPTION
+.B hsh\fR \ Shell is a program that takes commands from the standard input(keyboard) and gives them to the operating system to execute. This repository contains a small versión of a Shell. This is a very small version of the shell.
+
+.B Invocation
+.in +2n
+\fBhsh\fR can be invoke interactively and non-interactvely.
+If \fBhsh\fR when is executing interactively \fBhsh\fR displays the prompt: \fI<:v \
+.in
+
+.B Example interactive mode:
+.in +2n
+
+\fBhsh\fR
+\fB<:v\fR
+.in +2n
+
+.B Example non interactive  mode:
